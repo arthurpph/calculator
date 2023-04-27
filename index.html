@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <input id="number1" type="text"> 
+        <br>
+        <div>
+            <input type="checkbox" id="soma" value="+"> 
+            <label for="soma">+</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subtracao" value="-">
+            <label for="subtracao">-</label>
+        </div>
+        <div>
+            <input type="checkbox" id="multiplicacao" value="*">
+            <label for="multiplicacao">*</label>
+        </div>
+        <div>
+            <input type="checkbox" id="divisao" value="/">
+            <label for="divisao">/</label>
+        </div>
+        <input id="number2" type="text">
+        <button onclick="calcular()"> Calcular </button>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
